@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CheckOut_Fish_TSC" time="42.93" tests="2" failures="0" errors="0">
+   <testsuite name="TS_login" tests="1" failures="0" errors="0" time="11.684" skipped="0" timestamp="21-04-2024T15:18:06" hostname="EB149SR - IN3247948W2.ey.net" id="Test Suites/PetStore/TS_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_151756\\PetStore\\TS_login\\20240421_151757"/>
+         <property name="logFiles" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_151756\\PetStore\\TS_login\\20240421_151757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="EB149SR - IN3247948W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="sessionId" value="af990ff7c067e38257d666189c41e6df"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PetStore/login" time="11.47" classname="Test Cases/PetStore/login" status="PASSED">
+         <system-out><![CDATA[21-04-2024T15:18:06 - [TEST_CASE][PASSED] - Test Cases/PetStore/login: Test Cases/PetStore/login
+
+21-04-2024T15:18:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T15:18:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T15:18:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T15:18:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T15:18:13 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Account.action?signonForm="): Navigate to 'https://petstore.octoperf.com/actions/Account.action?signonForm=' successfully
+
+21-04-2024T15:18:15 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Account.action?signonForm=' successfully
+
+21-04-2024T15:18:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username"), "mohan1"): Text 'mohan1' is set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T15:18:16 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T15:18:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password"), "NXt0rM6HQe0="): Text ****** has been set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T15:18:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T15:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T15:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T15:18:06 - [TEST_SUITE][PASSED] - TS_login: Test Cases/PetStore/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_checkout_Fish" tests="1" failures="0" errors="0" time="19.577" skipped="0" timestamp="21-04-2024T15:18:24" hostname="EB149SR - IN3247948W2.ey.net" id="Test Suites/PetStore/TS_checkout_Fish">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_151756\\PetStore\\TS_checkout_Fish\\20240421_151759"/>
+         <property name="logFiles" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_151756\\PetStore\\TS_checkout_Fish\\20240421_151759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="EB149SR - IN3247948W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="sessionId" value="93ff6d6c7a50022565920ef4a480f4ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PetStore/Checkout_Fish" time="19.324" classname="Test Cases/PetStore/Checkout_Fish" status="PASSED">
+         <system-out><![CDATA[21-04-2024T15:18:25 - [TEST_CASE][PASSED] - Test Cases/PetStore/Checkout_Fish: Test Cases/PetStore/Checkout_Fish
+
+21-04-2024T15:18:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PetStore/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PetStore/login' successfully
+
+21-04-2024T15:18:25 - [TEST_CASE][PASSED] - Test Cases/PetStore/login: Test Cases/PetStore/login
+
+21-04-2024T15:18:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T15:18:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T15:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T15:18:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T15:18:32 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Account.action?signonForm="): Navigate to 'https://petstore.octoperf.com/actions/Account.action?signonForm=' successfully
+
+21-04-2024T15:18:33 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Account.action?signonForm=' successfully
+
+21-04-2024T15:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username"), "mohan1"): Text 'mohan1' is set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T15:18:34 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T15:18:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password"), "NXt0rM6HQe0="): Text ****** has been set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T15:18:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T15:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T15:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStore_Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T15:18:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PetStore/login' successfully
+
+21-04-2024T15:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/img")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T15:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T15:18:37 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH' successfully
+
+21-04-2024T15:18:38 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH' successfully
+
+21-04-2024T15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+21-04-2024T15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+21-04-2024T15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+21-04-2024T15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+21-04-2024T15:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/input_Ship to different address_newOrder")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+21-04-2024T15:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+21-04-2024T15:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Confirm")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Confirm' is clicked on
+
+21-04-2024T15:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Confirm' is clicked on
+
+21-04-2024T15:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+21-04-2024T15:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+21-04-2024T15:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T15:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T15:18:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T15:18:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T15:18:24 - [TEST_SUITE][PASSED] - TS_checkout_Fish: Test Cases/PetStore/Checkout_Fish]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

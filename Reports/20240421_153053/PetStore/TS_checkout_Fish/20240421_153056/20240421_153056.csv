@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_checkout_Fish,Edge Chromium 123,,,21-04-2024 15:31:27,21-04-2024 15:31:46,19.404s,PASSED
+,,,,,,,
+Test Cases/PetStore/Checkout_Fish,Edge Chromium 123,,,21-04-2024 15:31:27,21-04-2024 15:31:46,19.160s,PASSED
+"callTestCase(findTestCase(""PetStore/login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:31:28,21-04-2024 15:31:39,11.606s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 15:31:39,21-04-2024 15:31:40,0.735s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH"")",Edge Chromium 123,,,21-04-2024 15:31:40,21-04-2024 15:31:40,0.349s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_FI-SW-01""))",Edge Chromium 123,,,21-04-2024 15:31:40,21-04-2024 15:31:41,0.761s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 15:31:41,21-04-2024 15:31:42,0.794s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 15:31:42,21-04-2024 15:31:43,0.789s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 15:31:43,21-04-2024 15:31:43,0.690s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 15:31:43,21-04-2024 15:31:44,0.721s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 123,,,21-04-2024 15:31:44,21-04-2024 15:31:45,0.721s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Fish/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 15:31:45,21-04-2024 15:31:46,0.891s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 15:31:46,21-04-2024 15:31:46,0.538s,PASSED

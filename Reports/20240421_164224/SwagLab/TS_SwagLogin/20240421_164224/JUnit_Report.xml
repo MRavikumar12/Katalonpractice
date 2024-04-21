@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SwagLogin" time="12.786" tests="1" failures="0" errors="0">
+   <testsuite name="TS_SwagLogin" tests="1" failures="0" errors="0" time="12.786" skipped="0" timestamp="21-04-2024T16:42:29" hostname="EB149SR - IN3247948W2.ey.net" id="Test Suites/SwagLab/TS_SwagLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_164224\\SwagLab\\TS_SwagLogin\\20240421_164224"/>
+         <property name="logFiles" value="C:\\Users\\EB149SR\\git\\Katalonpractice\\Reports\\20240421_164224\\SwagLab\\TS_SwagLogin\\20240421_164224\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="EB149SR - IN3247948W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="sessionId" value="16a886509ead8aa5cfd7b925fb6f7c20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SwagLab/SL_Login" time="12.504" classname="Test Cases/SwagLab/SL_Login" status="PASSED">
+         <system-out><![CDATA[21-04-2024T16:42:29 - [TEST_CASE][PASSED] - Test Cases/SwagLab/SL_Login: Test Cases/SwagLab/SL_Login
+
+21-04-2024T16:42:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T16:42:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T16:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T16:42:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T16:42:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/index.html"): Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T16:42:37 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/index.html' successfully
+
+21-04-2024T16:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T16:42:39 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+21-04-2024T16:42:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T16:42:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+21-04-2024T16:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+21-04-2024T16:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag_Login/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T16:42:29 - [TEST_SUITE][PASSED] - TS_SwagLogin: Test Cases/SwagLab/SL_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
